@@ -29,7 +29,7 @@ def random_gb2312_char():
 # 并非常用汉字范围，常用汉字没有特定的区间
 # 需要自行排出
 # 所以找出常用字然后随机生成也是个办法了
-# 至于那种方便就很难说了
+# 至于那种方便就很难说了是
 def cre_name():
     username = ['', '', '']
     name = map(lambda x : x + random_char(), username)
